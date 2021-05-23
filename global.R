@@ -19,4 +19,4 @@ library(aws.s3)
 # library(hexSticker)
 # imgurl <- "https://abacusinsights.com/wp-content/uploads/2019/07/aws-logo-small.png"
 # sticker(imgurl, package="shinyAWS", p_size=20, s_x=1, s_y=.75, s_width=.6,
-#         filename="images/imgfile.png",h_color = "#ffffff",h_fill="#f9690e")
+#         filename="images/imgfile.png",h_color = "#ffffff",h_fill="#242F3F")
