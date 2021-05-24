@@ -1,8 +1,8 @@
 source("global.R")
-source("module/shinySQL.R")
+source("module/shinyAWS.R")
 
 ## Basic App ##
-ui <- fluidPage(sqlUI("aws_ns"))
+ui <- fluidPage(awsUI("aws_ns"))
 server <- function(input,output,session){
   rv <- reactiveValues()
   awsServer("aws_ns",rv)
